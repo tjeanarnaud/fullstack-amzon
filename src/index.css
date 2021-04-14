@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
 * {
   margin: 0;
@@ -6,11 +6,13 @@
 
 html {
   font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(234, 237, 237);
 }
