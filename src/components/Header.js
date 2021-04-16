@@ -23,10 +23,12 @@ const Header = () => {
 
       <div className="header_nav">
 
-        <div className="header_nav_option">
-          <span className="header_option_line_one">Hello Guest</span>
-          <span className="header_option_line_two">Sign in</span>
-        </div>
+        <Link to="/login">
+          <div className="header_nav_option">
+            <span className="header_option_line_one">Hello Guest</span>
+            <span className="header_option_line_two">Sign in</span>
+          </div>
+        </Link>
 
         <div className="header_nav_option">
           <span className="header_option_line_one">Returns</span>
